@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+body {
+	font-family:Mali, cursive;
+}
+/*Global*/
+.btn-color-green{
+	background-color: transparent;
+	color:#61e786;
+	border: 0.1rem solid #61e786;
+}
+.btn-color-green:hover{
+	background-color:#61e786;
+	color: white;
+}
+.btn-color-white{
+	background-color: transparent;
+	color: white;
+	border: 0.1rem solid white;
+}
+.btn-color-white:hover{
+	background-color: white;
+	color: #61e786;
+}
+.italic{
+	font-family: Caveat, cursive;
+}
+.text-color-green{
+	color: #61e786;
+}
+.height-col{
+	min-height: 85vh;
+	position: relative;
+}
+.text-underline{
+	position:relative;
+	height: 0.5rem;
+	width:50%;
+	margin: 0 auto;
+	border-radius:1rem;
+}
+.text-underline-center{
+	position: absolute;
+	height: 0.8rem;
+	width: 25%;
+	right: 37%;
+	left:37%;
+	border-radius: 1rem;
+	top: 100px;
+	transform: translateX(-50%,-50%);
+	background-color: #61e786 !important;
+}
+/*navbar*/
+.phone{
+	color: #61e786;
+	border: 0.1rem solid #61e786;
+	border-radius:50%;
+}
+/*Home footer*/
+.home-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+/*Home Image*/
+.home-img{
+	background: url(../img/bannerBcg.jpeg)center/cover fixed no-repeat;
+}
+.home-img-content{
+     position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 height: 104px;
+}
+/*Image Container*/
+.img-containerabout{
+	position: relative;
+}
+.featured-icon-left{
+	position: absolute;
+	bottom: 0;
+	left:45%;
+	background: black;
+	font-size:1.2rem;
+	display: inline-block;
+	color: blue !important;
+}
+.featured-icon-right{
+	position: absolute;
+	bottom: 0;
+    left:55%;
+	background: #61e786;
+	display: inline-block;
+	font-size: 1.2rem;
+	color: blue !important;
+}
+.blockquote{
+	border-left: 1rem solid #61e786;
+	
+}
+/*featured*/
+.text-underline-f{
+	position: relative;
+	height: 0.5rem;
+	width: 20%;
+	margin: 0 auto;
+	top: 12px;
+	border-radius: 2rem;
+	
+}
+.text-underline-center-f{
+	position: absolute;
+	height: 0.9rem;
+	width: 8%;
+    left: 46%;
+	background-color: #61e786 !important;
+	border-radius: 2rem;
+}
+.img-container{
+	position: relative;
+}
+.card-button{
+	position: absolute;
+	bottom: 0;
+	right: 46%;
+}
+.featured-left{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
+.featured-right{
+	padding: 10px;
+	background-color: #61e786;
+	color: white;
+	display: inline-block;
+}
+/*Sign Up*/
+.bg-green{
+	background-color: #61e786;
+}
+/*Services*/
+.services-background{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/bannerBcg.jpeg")center/cover fixed no-repeat;
+}
+.image-container{
+	position: relative;
+	
+}
+.image-inner{
+	position: absolute;
+    left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+.services-border{
+	border: 0.1rem solid #61e786;
+    padding: 0.3rem;
+}
+/*Our gallery*/
+.image-container-gallery{
+	position: relative;
+	overflow: hidden;
+	
+}
+.image-container-button{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,100%);
+	transition: all 1s ease-in-out;
+	color: white;
+	transition: all 0.3s linear;
+	background: #61e786;
+	border: none;
+}
+.image-container-gallery:hover .image-container-button{
+	transform: translate(-50%,-100%);
+	bottom: -30px;
+}
+.image-container-gallery:hover{
+	background: linear-gradient(rgba(0,0,0,3),rgba(0,0,0,3));
+}
+
+.image-container-plus{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: white;
+	opacity: 0;
+	transition: all 1s linear;
+	font-size: 2rem;
+}
+.image-container-gallery:hover .image-container-plus{
+   opacity: 2;
+}
+.img-container-gallery:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+/*Tour */
+.tour-back{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/bannerBcg.jpeg')center/cover fixed no-repeat;
+}
+.tour-button{
+	color: #61e786;
+	background: White;
+	padding: 0.4rem;
+	border-radius: 1rem;
+	transition: all 1s linear;
+   
+}
+.tour-button:hover{
+	color: white;
+	background: #61e786;
+}
+
+/*Footer*/
+.footer-section{
+	overflow: hidden;
+}
